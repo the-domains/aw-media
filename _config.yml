@@ -1,28 +1,40 @@
-name: AW Media
 favicon: null
-layout_spectrum: 0.5561378030106425
-typography_spectrum: 0.45460282219573855
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: AW Media
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.8752778603229672
-  lightness: 0.020577651681378484
-  saturation: 0.09861013549380004
-  rhythmicContrast: 0.765479524852708
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.09861013549380004
+  brandStrength: 1
+  lightness: 0.02057765168137848
+  brandColors:
+    - '#171720'
+    - '#886E5C'
+    - '#FFFFFF'
+    - '#E97F01'
+    - '#01FFFF'
+  rhythmicContrast: 0.765479524852708
+typography_spectrum: 0.7939068
+layout_spectrum: 0.5232975
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
